@@ -3,11 +3,15 @@
 # Este es un archivo de prueba muy sencillo, debe ser modificado 
 # de acuerdo con el enunciado del laboratorio.
 
+from Busquedas import LecturaDeDatos
 from Busquedas import BusquedaLineal
 
-A1 = [1,3,5,6,7,8,9,0]
-e = 9
+arreglo=LecturaDeDatos(input("Ingrese el nombre del archivo: "))
+e = int(input("Ingrese el elemento a buscar: "))
 
-encontrado = BusquedaLineal(A1, e)
+encontrado = BusquedaLineal(arreglo, e)
 if encontrado != None:
-	print("Está en la posición: " + str(encontrado)) 
+	print("Está en la posición: " + str(encontrado))
+else: 
+	print("No encontrado") 
+

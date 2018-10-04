@@ -5,7 +5,7 @@
 
 
 #### Resumen
-Los objetivos de este laboratorio son la familiarización con el uso de Git/Github para el curso y la implementeción de los algoritmos vistos hasta el momento en la teoría del curso: Búsqueda Seciencial, Búsqueda Binaria y Ordenamiento por Inserción.
+Los objetivos de este laboratorio son la familiarización con el uso de Git/Github para el curso y la implementeción de los algoritmos vistos hasta el momento en la teoría del curso: Búsqueda Secuencial, Búsqueda Binaria y Ordenamiento por Inserción.
 
 #### Actividades
 
